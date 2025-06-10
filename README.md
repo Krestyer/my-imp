@@ -5,3 +5,4 @@
 - Added FAQ section.
 - Improved formatting.
 - Fixed typos in examples.
+- Added contribution guidelines.
