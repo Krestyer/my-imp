@@ -7,3 +7,4 @@
 - Fixed typos in examples.
 - Added contribution guidelines.
 - Added license notice.
+- Final review edits.
