@@ -3,3 +3,4 @@
 - Added usage examples.
 - Clarified CLI options section.
 - Added FAQ section.
+- Improved formatting.
