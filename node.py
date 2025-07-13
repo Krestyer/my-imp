@@ -2,6 +2,7 @@ VERSION = "1.0.0"
 import argparse
 
 def main():
+    try:
         if args.hello:
         if args.goodbye:
         if args.version:
@@ -16,5 +17,7 @@ def main():
     parser.add_argument("--goodbye", help="Say goodbye")
     args = parser.parse_args()
 
+    except Exception as e:
+        print("Error:", e)
 if __name__ == '__main__':
     main()
