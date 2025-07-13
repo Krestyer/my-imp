@@ -5,6 +5,8 @@ def main():
         if args.hello:
         if args.goodbye:
         if args.version:
+        if not any(vars(args).values()):
+            print("No arguments provided.")
             print("Version:", VERSION)
             print(f"Goodbye, {args.goodbye}!")
             print(f"Hello, {args.hello}!")
